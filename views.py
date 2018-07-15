@@ -258,7 +258,7 @@ class Uspostdetails(CreateView):
 
 
 def sendemail(sender,recipient,subject,content,url):
-    sg = sendgrid.SendGridAPIClient(apikey="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")
+    sg = sendgrid.SendGridAPIClient(apikey="")
     mail = Mail()
     from_email = Email(sender)
     to_email = Email(recipient)
